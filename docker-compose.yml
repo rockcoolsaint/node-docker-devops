@@ -9,6 +9,7 @@ services:
 
   node-app:
     build: .
+    image: rockcoolsaint/node-docker
     # ports:
     #   - "3000-3001:3000"
     environment:
